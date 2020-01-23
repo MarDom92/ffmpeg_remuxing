@@ -5,3 +5,5 @@ CONFIG -= qt
 
 SOURCES += \
         main.c
+
+LIBS += -L /usrlib/ -lavcodec -lavformat -lavutil
